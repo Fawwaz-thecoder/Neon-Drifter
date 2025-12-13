@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Neon Drifter AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Rajdhani', sans-serif;
+        background-color: #050505;
+        color: #e0f2fe;
+        overflow: hidden; /* Prevent scrolling during play */
+      }
+      h1, h2, h3, .neon-font {
+        font-family: 'Orbitron', sans-serif;
+      }
+      .neon-text-blue {
+        text-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+      }
+      .neon-text-pink {
+        text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+      }
+      .neon-box-blue {
+        box-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff, inset 0 0 5px #00f3ff;
+        border: 1px solid #00f3ff;
+      }
+      .neon-box-pink {
+        box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, inset 0 0 5px #ff00ff;
+        border: 1px solid #ff00ff;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

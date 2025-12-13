@@ -1,0 +1,5 @@
+{
+  "name": "Neon Drifter AI",
+  "description": "A high-octane neon car maze game featuring smooth physics, algorithmic levels, and AI-generated tracks using Google Gemini 2.5 Flash.",
+  "requestFramePermissions": []
+}
